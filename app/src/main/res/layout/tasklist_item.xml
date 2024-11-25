@@ -10,6 +10,7 @@
         android:layout_height="40dp"
         android:layout_margin="8dp"
         android:src="@drawable/ic_done"
+        android:contentDescription="@string/alter_task_state"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
