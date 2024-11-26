@@ -33,6 +33,7 @@ class MainViewModel:ViewModel() {
     fun updateTask(position: Int){
         val task = dao.getAll()[position]
         task.isCompleted = !task.isCompleted
+        dao.updateList()
         _updateTask.value = true
         load()
     }
